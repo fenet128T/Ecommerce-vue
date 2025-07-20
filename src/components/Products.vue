@@ -112,14 +112,13 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from "vue";
-import product1 from '../assets/product1.jpg'
-import product2 from '../assets/product2.jpg'
-import product3 from '../assets/product3.jpg'
-import product4 from '../assets/product4.jpg'
-import product5 from '../assets/product5.jpg'
-import product6 from '../assets/product6.jpg'
-import product7 from '../assets/product7.jpg'
-import product8 from '../assets/product8.jpg'
+import product1 from '../assets/Womens/product1.jpg'
+import product2 from '../assets/Womens/product2.jpg'
+import product3 from '../assets/Womens/product3.jpg'
+import product4 from '../assets/Womens/product4.jpg'
+import product5 from '../assets/Womens/product5.jpg'
+import product6 from '../assets/Womens/product6.jpg'
+import product7 from '../assets/Womens/product7.jpg'
 
 
 const currentSlide = ref(0);
@@ -180,14 +179,6 @@ const products = [
     rating: 4.2,
     image: product7,
     discount: 25,
-  },
-  {
-    id: 8,
-    name: "Floral",
-    price: 94.99,
-    rating: 4.1,
-    image: product8,
-    discount: 0,
   },
 ];
 const totalSlides = computed(() =>
