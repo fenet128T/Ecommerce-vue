@@ -80,7 +80,7 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-medium text-gray-900">Phone</h3>
-                  <p class="text-gray-800">+215 -14234523</p>
+                  <p class="text-gray-800">+21514234523</p>
                   <p class="text-gray-600">Mon-Fri:8:30am-6pm</p>
                 </div>
               </div>

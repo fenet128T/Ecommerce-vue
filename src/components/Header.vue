@@ -120,7 +120,7 @@ const isMobileMenuOpen = ref(false);
 const navItems = [
   { id: 1, name: "Home", link: "#home" },
   { id: 2, name: "Products", link: "#products" },
-  { id: 3, name: "Categories", link: "#categories" },
+  { id: 3, name: "Categories", link: "#Categories" },
   { id: 4, name: "Offers", link: "#offers" },
   { id: 5, name: "About", link: "#about" },
   { id: 6, name: "Contact", link: "#contact" },
